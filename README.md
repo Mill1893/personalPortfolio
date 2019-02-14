@@ -4,8 +4,6 @@ This is a Ruby on Rails 5 application that allows users to create their own port
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### Prerequisites
 
 * [RVM](https://rvm.io/rvm/install) (recommended)
@@ -35,7 +33,6 @@ rails s
 
 Unit tests pending (will be written with Rspec)
 
-
 ### And coding style tests
 
 Linter will be added at a later time.
@@ -45,10 +42,6 @@ Linter will be added at a later time.
 * [Ruby](https://www.ruby-lang.org/en/) - version 2.5.1
 * [Rails](https://rubyonrails.org/) - version 5.2.2
 * [PostgreSQL](https://www.postgresql.org/docs/) - version 10.5
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
