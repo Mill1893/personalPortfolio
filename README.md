@@ -1,24 +1,63 @@
-# README
+# Personal Portfolio
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Ruby on Rails 5 application that allows users to create their own portfolios.
 
-Things you may want to cover:
+## Getting Started
 
-* Ruby version
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-* System dependencies
+### Prerequisites
 
-* Configuration
+* [RVM](https://rvm.io/rvm/install) (recommended)
+* [Ruby](https://rvm.io/rubies/installing) - version 2.5.1
+* [PostgreSQL](https://www.postgresql.org/download/) - version 10.5
 
-* Database creation
+### Installing
 
-* Database initialization
+Clone the repo
+```
+git clone https://github.com/Mill1893/personalPortfolio.git
+```
+Cd into the directory
+```
+cd personalPortfolio
+```
+Run bundle install
+```
+bundle install
+```
+To start the service
+```
+rails s
+```
 
-* How to run the test suite
+## Running the tests
 
-* Services (job queues, cache servers, search engines, etc.)
+Unit tests pending (will be written with Rspec)
 
-* Deployment instructions
 
-* ...
+### And coding style tests
+
+Linter will be added at a later time.
+
+## Built With
+
+* [Ruby](https://www.ruby-lang.org/en/) - version 2.5.1
+* [Rails](https://rubyonrails.org/) - version 5.2.2
+* [PostgreSQL](https://www.postgresql.org/docs/) - version 10.5
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
+
+* **Andy Miller** - *Initial work* - [Mill1893](https://github.com/mill1893)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* This project was created using Jordan Hudgens [Udemy course](https://www.udemy.com/professional-rails-5-development-course/)
